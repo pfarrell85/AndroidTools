@@ -288,3 +288,7 @@ if __name__ == '__main__':
 					aadb.pushToDeviceIndex(deviceIndex, local, remote)
 			else:
 				aadb.pushToAllDevices(local, remote)
+
+		elif sys.argv[arg_index] == 'reboot':
+			shellCommand = "reboot"
+			aadb.runCommandOnAllDevices(shellCommand)
