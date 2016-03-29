@@ -7,7 +7,7 @@ setup(
   author = 'Patrick Farrell',
   author_email = 'pfarrell85@gmail.com',
   url = 'https://github.com/pfarrell85/AndroidTools', # use the URL to the github repo
-  download_url = 'https://github.com/peterldowns/mypackage/tarball/0.1', # I'll explain this in a second
+  download_url = 'https://github.com/pfarrell85/AndroidTools/tarball/0.1', # I'll explain this in a second
   keywords = ['Android', 'adb'], # arbitrary keywords
   classifiers = [],
 )
